@@ -8,7 +8,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="service-zuul" />
         <module name="config-server" />
-        <module name="configupper" />
         <module name="service-feign" />
         <module name="eureka-server" />
         <module name="service-hi" />
