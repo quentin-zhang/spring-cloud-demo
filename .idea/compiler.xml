@@ -7,7 +7,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-server" />
-        <module name="cloud" />
         <module name="service-hi" />
         <module name="service-ribbon" />
       </profile>

@@ -6,7 +6,6 @@
         <groupId>com.ss</groupId>
         <artifactId>cloud</artifactId>
         <version>1.0.0</version>
-        <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <artifactId>service-ribbon</artifactId>
     <version>1.0.0</version>
