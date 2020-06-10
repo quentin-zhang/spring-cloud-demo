@@ -7,7 +7,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="service-zuul" />
-        <module name="config-server" />
         <module name="service-feign" />
         <module name="eureka-server" />
         <module name="service-hi" />
@@ -15,6 +14,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="config-server" target="1.8" />
       <module name="configupper" target="1.8" />
     </bytecodeTargetLevel>
   </component>
