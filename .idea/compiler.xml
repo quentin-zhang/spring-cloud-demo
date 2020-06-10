@@ -7,16 +7,23 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="service-zuul" />
-        <module name="eureka-server" />
+        <module name="config-server" />
+        <module name="configupper" />
         <module name="service-feign" />
+        <module name="eureka-server" />
         <module name="service-hi" />
         <module name="service-ribbon" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="configupper" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="cloud" options="-parameters" />
+      <module name="config-server" options="-parameters" />
+      <module name="configupper" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="service-feign" options="-parameters" />
       <module name="service-hi" options="-parameters" />
