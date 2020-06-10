@@ -7,10 +7,10 @@
         <artifactId>cloud</artifactId>
         <version>1.0.0</version>
     </parent>
-    <artifactId>service-ribbon</artifactId>
+    <artifactId>service-feign</artifactId>
     <version>1.0.0</version>
-    <name>service-ribbon</name>
-    <description>service ribbon</description>
+    <name>service-feign</name>
+    <description>service feign</description>
 
     <dependencies>
         <dependency>
@@ -20,6 +20,10 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
     </dependencies>
 
