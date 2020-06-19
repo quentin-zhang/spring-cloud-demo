@@ -16,8 +16,7 @@
         <module>service-feign</module>
         <module>service-zuul</module>
         <module>gateway</module>
-        <module>gateway</module>
-        <module>alibaba</module>
+        <module>alibaba1</module>
     </modules>
     <groupId>com.ss</groupId>
     <artifactId>cloud</artifactId>

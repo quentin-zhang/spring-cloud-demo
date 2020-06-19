@@ -6,10 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="nacos-provider" />
         <module name="service-zuul" />
-        <module name="alibaba" />
-        <module name="nacos-consumer" />
+        <module name="nacos-provider2" />
         <module name="service-feign" />
         <module name="eureka-server" />
         <module name="service-hi" />
@@ -18,9 +16,13 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="alibaba" target="1.8" />
       <module name="config-server" target="1.8" />
       <module name="configupper" target="1.8" />
       <module name="gateway" target="1.8" />
+      <module name="nacos-consumer" target="1.8" />
+      <module name="nacos-provider" target="1.8" />
+      <module name="nacosprovider1" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -34,6 +36,8 @@
       <module name="gateway-first-sight" options="-parameters" />
       <module name="nacos-consumer" options="-parameters" />
       <module name="nacos-provider" options="-parameters" />
+      <module name="nacos-provider2" options="-parameters" />
+      <module name="nacosprovider1" options="-parameters" />
       <module name="service-feign" options="-parameters" />
       <module name="service-hi" options="-parameters" />
       <module name="service-ribbon" options="-parameters" />

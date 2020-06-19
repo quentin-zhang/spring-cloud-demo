@@ -13,11 +13,15 @@
         <option value="$PROJECT_DIR$/config-upper/config-server/pom.xml" />
         <option value="$PROJECT_DIR$/gateway/gateway-first-sight/pom.xml" />
         <option value="$PROJECT_DIR$/alibaba/nacos-config/pom.xml" />
-        <option value="$PROJECT_DIR$/alibaba/nacos-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/alibaba/nacos-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/alibaba1/nacos-provider2/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/alibaba/nacos-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/alibaba/pom.xml" />
+        <option value="$PROJECT_DIR$/alibaba1/nacos-provider1/pom.xml" />
         <option value="$PROJECT_DIR$/config-upper/pom.xml" />
         <option value="$PROJECT_DIR$/gateway/pom.xml" />
       </set>

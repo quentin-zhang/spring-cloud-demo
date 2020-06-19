@@ -40,3 +40,13 @@ y
 Iservice-zuul/src/main/java/com/ss/servicezuul/ServiceZuulApplication.java,d\5\d5e20312e0c9be44c2f7f6ec502e733fa96b00d9
 k
 ;service-zuul/src/main/java/com/ss/servicezuul/MyFilter.java,8\d\8d1db7c195901d427a5cb2fa160d2cd3707d6f58
+S
+#gateway/gateway-first-sight/pom.xml,0\b\0bd2de7e9f47f2eda85c3cad7142c5e9228e66f8
+?
+gateway/pom.xml,4\b\4b316bc60d1cfae51045f6fc8e58a8ae31f03ff3
+?
+alibaba/pom.xml,3\f\3f3975771a8e8d87fd962359d15b586921989f1d
+”
+dgateway/gateway-first-sight/src/main/java/com/ss/gatewayfirstsight/GatewayFirstSightApplication.java,0\a\0ad5017bc1cf4c338e8319f762904674923043fd
+N
+alibaba/nacos-provider/pom.xml,4\a\4add380c4a60067111949467c3d7d0b4b8b15510
